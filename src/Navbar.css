@@ -1,0 +1,48 @@
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: transparent!important;
+    }
+.navbar-toggler {
+    color: white;
+    border: 1px solid #ccc;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    color: white;
+    font-family: 'Abril Fatface', sans-serif;
+  }
+
+  .navbar-brand.absolute {
+    position: absolute;
+  }
+  @media (max-width:768px) {
+    .navbar-brand.absolute {
+        position: relative;
+      }
+  }
+
+  .navbar-brand span {
+    color: white;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 1.7rem 1rem!important;
+    outline: none!important;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+  }
+
+
+.navbar .navbar-nav .nav-link.active {
+  color: #6f42c1;
+}

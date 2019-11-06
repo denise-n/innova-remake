@@ -1,22 +1,71 @@
-.App {
-  text-align: center;
+ a {
+  transition: 0.3s all ease;
+  text-decoration: none;
+}
+ a:hover {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
+ h1, h2, h3, h4, h5 {
+	color: black;
+	line-height: 1.5;
+	font-family: 'Abril Fatface', sans-serif;;
+	font-weight: 900;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn, .form-control {
+  outline: none;
+  box-shadow: none !important;
+  border-radius: 0;
+}
+.btn:focus, .btn:active, .form-control:focus, .form-control:active {
+  outline: none;
+}
+
+.form-control {
+	box-shadow: none!important;
+	height: 50px;
+	border-width: 2px;
+	border-color: black;
+}
+textarea.form-control {
+	height: inherit;
+}
+
+.btn {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+}
+.btn.btn-primary {
+  color: white;
+  border-width: 2px;
+}
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+  border-color: #8c68ce;
+  background: #8c68ce;
+}
+.btn.btn-sm {
+  font-size: 12px;
+}
+.btn.btn-outline-primary {
+  border-width: 2px;
+  color: #6f42c1;
+}
+.btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
   color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.btn.btn-outline-white {
+  border-width: 2px;
+  border-color: white;
+  color: white;
+}
+.btn.btn-outline-white:hover, .btn.btn-outline-white:focus {
+  background: white;
+  color: black;
+  border-width: 2px;
+}
+.btn:hover {
+  text-decoration: none;
 }
