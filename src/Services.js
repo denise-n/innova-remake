@@ -8,7 +8,7 @@ class Services extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 mb-4">
-                            <div className="service text-center" data-aos="fade-up" data-aos-delay="">
+                            <div className="service text-center" data-aos="fade-up" data-aos-duration="800">
                                 <i className="far fa-paper-plane mb-4 d-block"/>
                                 <h3>Email Design</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
@@ -16,7 +16,7 @@ class Services extends Component {
                         </div>
 
                         <div className="col-lg-3 mb-4">
-                            <div className="service text-center" data-aos="fade-up" data-aos-delay="100">
+                            <div className="service text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                                 <i className="fas fa-desktop mb-4 d-block"/>
                                 <h3>Web Design</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
@@ -24,7 +24,7 @@ class Services extends Component {
                         </div>
 
                         <div className="col-lg-3 mb-4">
-                            <div className="service text-center" data-aos="fade-up" data-aos-delay="200">
+                            <div className="service text-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                                 <i className="fas fa-mobile-alt mb-4 d-block"/>
                                 <h3>Mobile Design</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
@@ -32,7 +32,7 @@ class Services extends Component {
                         </div>
 
                         <div className="col-lg-3 mb-4">
-                            <div className="service text-center" data-aos="fade-up" data-aos-delay="300">
+                            <div className="service text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                                 <i className="fas fa-search mb-4 d-block"/>
                                 <h3>Research</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet.</p>
