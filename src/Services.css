@@ -1,0 +1,14 @@
+.Services.section {
+	padding: 7em 0;
+}
+
+.Services .service i {
+    font-size: 3rem;
+    color:  #6f42c1;
+	
+}
+
+.Services .service h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
