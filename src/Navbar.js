@@ -9,7 +9,7 @@ class Navbar extends Component {
             <nav className={`navbar navbar-expand-lg  navbar-dark bg-dark fixed-top ${scrolling}`}>
                 <div className="container-fluid">
 
-                    <Link exact to='/' className="navbar-brand">Innova</Link>
+                    <Link to='/' className="navbar-brand">Innova</Link>
 
                     <button 
                     className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -22,19 +22,19 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav pl-md-5 ml-auto">
                             <li className="nav-item">
-                                <NavLink exact to='/' className="nav-link">Home</NavLink>
+                                <NavLink to='/' className="nav-link">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact to="/about" className="nav-link">About</NavLink>
+                                <NavLink to="/about" className="nav-link">About</NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink exact to="/services" className="nav-link">Services</NavLink>
+                                <NavLink to="/services" className="nav-link">Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink  exact to="/portfolio" className="nav-link">Portfolio</NavLink>
+                                <NavLink  to="/portfolio" className="nav-link">Portfolio</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact to="/contact" className="nav-link">Contact</NavLink>
+                                <NavLink to="/contact" className="nav-link">Contact</NavLink>
                             </li>
                         </ul>
 
