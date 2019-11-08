@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './Services.css'
+import './ServicesSection.css'
 
-class Services extends Component {
+class ServicesSection extends Component {
     render() {
         return (
-            <section className="section Services">
+            <section className="section ServicesSection">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 mb-4">
@@ -46,4 +46,4 @@ class Services extends Component {
     }
 }
 
-export default Services
+export default ServicesSection
