@@ -3,8 +3,9 @@ import './Navbar.css'
 
 class Navbar extends Component {
     render() {
+        const { scrolling } = this.props
         return (
-            <nav className="navbar navbar-expand-lg bg-dark">
+            <nav className={`navbar navbar-expand-lg  navbar-dark bg-dark fixed-top ${scrolling}`}>
                 <div className="container-fluid">
 
                     <a className="navbar-brand " href="index.html">Innova</a>
@@ -13,11 +14,11 @@ class Navbar extends Component {
                     className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"/>
                     </button>
 
 
-                    <div className="collapse navbar-collapse" id="#navbarSupportedContent">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav pl-md-5 ml-auto">
                             <li className="nav-item">
                                 <a className="nav-link active" href="index.html">Home</a>

@@ -21,3 +21,21 @@
     font-weight: 700!important;
     margin-bottom: 30px;
 }
+
+@media (max-width: 992px) {
+    .slider-item .slider-text h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-item .slider-text h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider-item .slider-text h1 {
+        font-size: 3rem;
+    }
+}

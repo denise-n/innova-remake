@@ -1,6 +1,13 @@
 .Testimonials {
     height: 100vh;
 }
+
+@media (max-width: 1200px) {
+    .Testimonials {
+        height: 50vh;
+    }
+}
+
 .item-container {
     max-width: 700px;
     margin-left: auto;
