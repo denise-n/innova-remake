@@ -31,7 +31,7 @@ class Navbar extends Component {
                                 <NavLink exact to="/services" className="nav-link">Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink  exact to="/portfolio" className="nav-link">Projects</NavLink>
+                                <NavLink  exact to="/portfolio" className="nav-link">Portfolio</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink exact to="/contact" className="nav-link">Contact</NavLink>

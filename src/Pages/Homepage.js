@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Pagefront from '../Pagefront'
 import ServicesSection from '../ServicesSection'
-import Portfolio from '../Portfolio'
+import PortfolioSection from '../PortfolioSection'
 import Testimonials from '../Testimonials'
 import AboutSection from '../AboutSection'
 import GetStarted from '../GetStartedSection'
@@ -13,7 +13,7 @@ class Homepage extends Component {
             <div className="Homepage">
                 <Pagefront title={title}/>
                 <ServicesSection />
-                <Portfolio />
+                <PortfolioSection />
                 <Testimonials />
                 <AboutSection />
                 <GetStarted />  

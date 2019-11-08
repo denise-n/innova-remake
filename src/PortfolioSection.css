@@ -1,13 +1,13 @@
-.Portfolio .work-thumb {
+.PortfolioSection .work-thumb {
     display: block;
     position: relative;
   }
 
-  .Portfolio .work-thumb img {
+  .PortfolioSection .work-thumb img {
     border: 10px solid white;
   }
 
-  .Portfolio .work-thumb .work-text {
+  .PortfolioSection .work-thumb .work-text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -20,24 +20,24 @@
     transform: translate(-50%, -50%);
   }
 
-  .Portfolio .work-thumb .work-text h2 {
+  .PortfolioSection .work-thumb .work-text h2 {
     color: white;
     font-weight: 300;
     margin-bottom: 0;
     font-size: 1.5rem;
   }
 
-  .Portfolio .work-thumb .work-text p {
+  .PortfolioSection .work-thumb .work-text p {
     color: rgba(255, 255, 255, 0.5);
   }
 
-  .Portfolio .work-thumb:hover .work-text {
+  .PortfolioSection .work-thumb:hover .work-text {
     margin-top: 0px;
     opacity: 1;
     visibility: visible;
   }
 
-  .Portfolio .work-thumb:before {
+  .PortfolioSection .work-thumb:before {
     content: "";
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -50,7 +50,7 @@
     bottom: 10px;
   }
 
-  .Portfolio .work-thumb:hover:before {
+  .PortfolioSection .work-thumb:hover:before {
     opacity: 1;
     visibility: visible;
   }
