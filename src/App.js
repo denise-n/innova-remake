@@ -9,6 +9,7 @@ import Portfolio from './Portfolio'
 import Testimonials from './Testimonials'
 import AboutSection from './AboutSection'
 import GetStarted from './GetStartedSection'
+import Footer from './Footer'
 
 class App extends Component {
   constructor() {
@@ -55,6 +56,7 @@ getWindowHeight = (event) => {
         <Testimonials />
         <AboutSection />
         <GetStarted />
+        <Footer />
       </div>
     );
   } 
