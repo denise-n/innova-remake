@@ -1,0 +1,29 @@
+.media-custom {
+    background: white;
+    transition: 0.3s all ease;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0;
+  }
+
+  .media-custom > a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+  }
+
+  .media-custom img {
+    transition: 0.3s all ease;
+  }
+  .media-custom:focus img, .media-custom:hover img {
+    transform: scale(1.1);
+  }
+  .media-custom .media-body {
+    padding: 30px;
+  }
+  .media-custom .media-body h3 {
+    font-size: 20px;
+  }
+  .media-custom .media-body p:last-child {
+    margin-bottom: 0;
+  }
