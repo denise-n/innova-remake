@@ -1,20 +1,23 @@
 import React, { Component } from 'react'
 import './PortfolioSection.css'
 import { Link } from 'react-router-dom'
-import {projects} from './ProjectsData'
 
 class PortfolioSection extends Component {
+
+    
     render() {
-        const column = projects.map(project => 
-            <div className="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="100" data-aos-duration="800">
-                            <Link to={`/portfolio/${project.name}`} className="work-thumb">
-                                <div className="work-text">
-                                    <h2>{project.title}</h2>
-                                    <p>{project.type}</p>
-                                </div>
-                                <img src={project.imgSrc} alt="Image" className="img-fluid"/>
-                            </Link>
-                        </div>
+        const { projects } = this.props
+
+        const column = projects.map((project, i) =>  
+            <div className="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="100" data-aos-duration="800" key={i}>
+                <Link to={`/portfolio/${project.name}`} className="work-thumb">
+                    <div className="work-text">
+                        <h2>{project.title}</h2>
+                        <p>{project.type}</p>
+                    </div>
+                    <img src={project.imgSrc} alt="Image" className="img-fluid"/>
+                </Link>
+            </div>
             )
         
         return (

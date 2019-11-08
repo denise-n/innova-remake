@@ -8,12 +8,13 @@ import GetStarted from '../GetStartedSection'
 
 class Homepage extends Component {
     render() {
+        const { projects } = this.props
         const title = 'We are innova we create great stuff.'
         return (
             <div className="Homepage">
                 <Pagefront title={title}/>
                 <ServicesSection />
-                <PortfolioSection />
+                <PortfolioSection projects={projects}/>
                 <Testimonials />
                 <AboutSection />
                 <GetStarted />  

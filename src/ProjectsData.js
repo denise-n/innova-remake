@@ -23,7 +23,7 @@ export const projects = [
         imgSrc: work_3 
     },
     {
-        name: "project3",
+        name: "project4",
         title: "Project 4",
         type: "Business",
         imgSrc: work_4 

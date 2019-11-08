@@ -3,10 +3,15 @@ import Pagefront from '../Pagefront'
 
 class ProjectPage extends Component {
     render() {
-        const { project } = this.props
+        const { projects } = this.props
+        let projectName = this.props.match.params.project
+        let currentProject = projects.find(p => p.name === projectName)
+        console.log(currentProject)
+
+        
         return (
             <div className="ProjectPage">
-                <Pagefront title={project.title}/>
+                <Pagefront title={currentProject.title}/>
                 
             </div>
         )
