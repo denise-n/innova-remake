@@ -16,9 +16,7 @@ class AboutPage extends Component {
                 <TextSection image={hero_2} order='order-md-2'/>
                 <LeadershipSection person1={person_1} person2={person_2} />
                 <TextSection image={about_2} />
-                <Testimonials />
-
-                
+                <Testimonials />      
             </div>
         )
     }

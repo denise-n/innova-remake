@@ -1,0 +1,15 @@
+.FormSection {
+    padding-top: 4rem;
+}
+
+.FormSection .contact-form-contact-info span {
+    color: black;
+    font-size: 1.1rem;
+    
+}
+
+.FormSection  p i {
+    color: #6f42c1;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}

@@ -4,7 +4,6 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 import Navbar from './Navbar'
 import Routes from './Routes'
-import Homepage from './Pages/Homepage'
 import Footer from './Footer'
 
 class App extends Component {

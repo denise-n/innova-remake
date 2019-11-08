@@ -11,7 +11,6 @@ class ServicesPage extends Component {
                 <ServicesSection />
                 <ServicesSection />
                 <Testimonials />
-                
             </div>
         )
     }
