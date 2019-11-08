@@ -11,21 +11,21 @@ class FormSection extends Component {
                             <div className="row justify-content-center">
                                 <div className="col-lg-4" data-aos="fade-up" data-aos-delay="">
                                     <p className="d-flex justify-content-center">
-                                        <i class="fas fa-map-marker-alt"></i>
+                                        <i className="fas fa-map-marker-alt"></i>
                                         <span>34 Street Name, City Name Here, United States</span>
                                     </p>
                                 </div>
 
                                 <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                                     <p className="d-flex justify-content-center">
-                                        <i class="fas fa-phone-alt"></i>    
+                                        <i className="fas fa-phone-alt"></i>    
                                         <span>+1 242 4942 290</span>
                                     </p>
                                 </div>
 
                                 <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                                     <p className="d-flex justify-content-center">
-                                        <i class="fas fa-envelope"></i>
+                                        <i className="fas fa-envelope"></i>
                                         <span>info@yourdomain.com</span>
                                     </p>
                                 </div>
@@ -39,12 +39,12 @@ class FormSection extends Component {
                             <form action="#" method="post">
                                 <div className="row">
                                     <div className="col-md-6 form-group">
-                                        <label for="name">Name</label>
+                                        <label htmlfor="name">Name</label>
                                         <input type="text" id="name" className="form-control "/>
                                     </div>
 
                                     <div className="col-md-6 form-group">
-                                        <label for="phone">Phone</label>
+                                        <label htmlfor="phone">Phone</label>
                                         <input type="text" id="phone" className="form-control "/>
                                     </div>
 
@@ -57,13 +57,13 @@ class FormSection extends Component {
 
                                 <div className="row">
                                 <div className="col-md-12 form-group">
-                                    <label for="email">Email</label>
+                                    <label htmlfor="email">Email</label>
                                     <input type="email" id="email" className="form-control "/>
                                 </div>
                                 </div>
                                 <div className="row">
                                 <div className="col-md-12 form-group">
-                                    <label for="message">Write Message</label>
+                                    <label htmlfor="message">Write Message</label>
                                     <textarea name="message" id="message" className="form-control " cols="30" rows="8"></textarea>
                                 </div>
                                 </div>

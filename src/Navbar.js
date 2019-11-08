@@ -22,12 +22,12 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav pl-md-5 ml-auto">
                             <li className="nav-item">
-                                <NavLink to='/' className="nav-link">Home</NavLink>
+                                <NavLink exact to='/' className="nav-link">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to="/about" className="nav-link">About</NavLink>
                             </li>
-                            <li className="nav-item dropdown">
+                            <li className="nav-item">
                                 <NavLink to="/services" className="nav-link">Services</NavLink>
                             </li>
                             <li className="nav-item">

@@ -22,7 +22,7 @@ class LeadershipSection extends Component {
                                     <img src={person1} alt="Image Placeholder" className="img-fluid"/>
                                 </a>
                                 <div className="media-body">
-                                    <h3 className="mt-0 text-black">Mellisa Howard</h3>
+                                    <h3 className="mt-0">Mellisa Howard</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus repudiandae amet.</p>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ class LeadershipSection extends Component {
                                     <img src={person2} alt="Image Placeholder" className="img-fluid"/>
                                 </a>
                                 <div className="media-body">
-                                    <h3 className="mt-0 text-black">Mike Richardson</h3>
+                                    <h3 className="mt-0">Mike Richardson</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus repudiandae amet.</p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ class LeadershipSection extends Component {
                                     <img src={person1} alt="Image Placeholder" className="img-fluid"/>
                                 </a>
                                 <div className="media-body">
-                                    <h3 className="mt-0 text-black">Laura Smith</h3>
+                                    <h3 className="mt-0">Laura Smith</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus repudiandae amet.</p>
                                 </div>
                             </div>
