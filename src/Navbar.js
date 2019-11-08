@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 class Navbar extends Component {
@@ -8,7 +9,7 @@ class Navbar extends Component {
             <nav className={`navbar navbar-expand-lg  navbar-dark bg-dark fixed-top ${scrolling}`}>
                 <div className="container-fluid">
 
-                    <a className="navbar-brand " href="index.html">Innova</a>
+                    <Link exact to='/' className="navbar-brand">Innova</Link>
 
                     <button 
                     className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -21,19 +22,19 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav pl-md-5 ml-auto">
                             <li className="nav-item">
-                                <a className="nav-link active" href="index.html">Home</a>
+                                <NavLink exact to='/' className="nav-link active">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="about.html">About</a>
+                                <NavLink exact to="/about" className="nav-link">About</NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link" href="services.html">Services</a>
+                                <NavLink exact to="/services" className="nav-link">Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="portfolio.html">Projects</a>
+                                <NavLink  exact to="/portfolio" className="nav-link">Projects</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="contact.html">Contact</a>
+                                <NavLink exact to="/contact" className="nav-link">Contact</NavLink>
                             </li>
                         </ul>
 

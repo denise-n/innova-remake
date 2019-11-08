@@ -3,12 +3,8 @@ import './App.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import Navbar from './Navbar'
-import Homepage from './Homepage'
-import Services from './Services'
-import Portfolio from './Portfolio'
-import Testimonials from './Testimonials'
-import AboutSection from './AboutSection'
-import GetStarted from './GetStartedSection'
+import Routes from './Routes'
+import Homepage from './Pages/Homepage'
 import Footer from './Footer'
 
 class App extends Component {
@@ -50,12 +46,7 @@ getWindowHeight = (event) => {
     return (
       <div className="App">
         <Navbar scrolling={this.state.scrolling}/>
-        <Homepage />
-        <Services />
-        <Portfolio />
-        <Testimonials />
-        <AboutSection />
-        <GetStarted />
+        <Routes />
         <Footer />
       </div>
     );

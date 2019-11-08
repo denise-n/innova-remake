@@ -1,7 +1,7 @@
 .Homepage {
     width: 100vw;
     height: 100vh;
-    background-image: url('./images/hero_2.jpg');
+    background-image: url('../images/hero_2.jpg');
     background-position: 50% 0px;
     background-size: cover;
 }
