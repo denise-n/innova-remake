@@ -7,6 +7,8 @@ import Homepage from './Homepage'
 import Services from './Services'
 import Portfolio from './Portfolio'
 import Testimonials from './Testimonials'
+import AboutSection from './AboutSection'
+import GetStarted from './GetStartedSection'
 
 class App extends Component {
   constructor() {
@@ -51,6 +53,8 @@ getWindowHeight = (event) => {
         <Services />
         <Portfolio />
         <Testimonials />
+        <AboutSection />
+        <GetStarted />
       </div>
     );
   } 

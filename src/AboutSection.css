@@ -1,0 +1,25 @@
+.text-primary {
+    color: #6f42c1!important;
+}
+
+.btn {
+    font-size: 1rem;
+}
+
+.img-fluid {
+    max-width: 90%;
+}
+
+.img-dotted-bg {
+    position: relative;
+  }
+  .img-dotted-bg:after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background: url("./images/dotted.jpg") repeat;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 400px;
+  }

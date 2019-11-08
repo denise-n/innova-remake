@@ -14,9 +14,20 @@
     }
 }
 
-  .scrolling {
+.scrolling {
     background-color: rgba(155, 155, 155, .95) !important;
     transition: ease-in-out 400ms;
+    opacity: 0;
+}
+
+.scrolling:hover {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .scrolling {
+    opacity: 1;
+  }
 }
 
 .navbar-toggler {

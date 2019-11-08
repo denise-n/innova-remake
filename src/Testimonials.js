@@ -8,7 +8,7 @@ class Testimonials extends Component {
         return (
             <section className="d-none d-sm-block section bg-light block-11 Testimonials">
 
-                <div className="container h-100">
+                <div className="container">
 
                     <div className="row justify-content-center mb-5">
                         <div className="col-md-8 text-center">
